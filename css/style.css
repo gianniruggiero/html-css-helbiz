@@ -23,6 +23,10 @@ a {
   background-color: #fafafa;
 }
 
+.fsize_art {
+  font-size: 1.2rem;
+}
+
 .mt-15 {
   margin-top: 15px;
 }
@@ -43,8 +47,24 @@ a {
   margin-left: 20px;
 }
 
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
 .mr-20 {
   margin-right: 20px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 .list-inline {
@@ -150,23 +170,17 @@ a {
 
 .articles {
   /* debug */
-  background-color: darkgrey;
+  background-color: #fff;
+  width: 100%;
 }
-
-.articles .col-lg-6 {
-  border: 1px solid black;
-  height: 700px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-/* debug */
 
 .logo-art {
   width: 190px;
+  height: 22px;
 }
 
 .img-art {
-  width: 310px;
+  width: 400px;
   display: inline-block;
 }
 
@@ -182,8 +196,6 @@ a {
 .wrap-img-articles {
   padding: 100px 15px;
 }
-
-
 
 /* WORKS sezione */
 
@@ -203,12 +215,6 @@ a {
   height: 700px;
 }
 
-.articles .col-lg-6 {
-  background-color: lightgrey;
-  border: 1px solid red;
-  height: 700px;
-  margin-top: 50px;
-}
 /* debug */
 
 /* FUNCTIONS sezione */
@@ -228,8 +234,53 @@ footer [class*="col-"] {
   border: 1px solid red;
 }
 
+/* Tablet 769 - 992 */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .ml-md-50 {
+    margin-left: 50px;
+  }
+
+  .mr-md-50 {
+    margin-right: 50px;
+  }
+
+  .img-art {
+    width: 280px;
+  }
+
+}
+
+/* Moble < 768 */
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.0rem;
   }
+
+  /* margini sezione articles */
+  .ml-xs-30 {
+    margin-left: 30px;
+  }
+
+  .mr-xs-30 {
+    margin-right: 30px;
+  }
+
+  .mt-xs-0 {
+    margin-top: 0px;
+  }
+
+  .mb-xs-30 {
+    margin-bottom: 30px;
+  }
+
+  .pdb-xs-0 {
+    padding-bottom: 0px;
+  }
+
+  .img-art {
+    width: 400px;
+  }
+
+
 }
