@@ -2,6 +2,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -25,7 +26,8 @@ a {
   padding: 0 10px;
   background-color: #fff;
   line-height: 70px;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
+  font-weight: 500;
 }
 
 .logo {
@@ -44,6 +46,13 @@ a {
 
 .side-menu {
   text-align: right;
+}
+
+#eng-menu {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 6px;
+  color: #000;
 }
 
 .btn {
