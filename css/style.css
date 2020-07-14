@@ -138,10 +138,11 @@ a {
 }
 /* debug */
 
+
 .works {
   /* debug */
   position: relative;
-  height: 800px;
+  height: 700px;
   background-color: yellow;
   background-image: url('img/bg_works.jpg');
   background-position: top;
@@ -151,8 +152,10 @@ a {
 
 .works [class*="col-"] {
   border: 1px solid black;
-  height: 800px;
+  height: 700px;
 }
+
+
 
 .articles .col-lg-6 {
   background-color: lightgrey;
