@@ -1,3 +1,9 @@
+/* TYPO */
+
+h1 {
+  font-size: 42px;
+}
+
 /* MIX */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -78,4 +84,16 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  top: 70px;
+}
+
+.banner {
+  width: 700px;
+  height: 400px;
+  background-color: red;
+  text-align: center;
+}
+
+.img-banner {
+  width: 160px;
 }
