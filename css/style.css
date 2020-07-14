@@ -118,3 +118,46 @@ a {
 .img-banner {
   width: 160px;
 }
+
+/* ARTICLES sezione */
+
+/* .articles [class*="col-6"] */
+
+.articles {
+  /* debug */
+  position: relative;
+  height: 800px;
+  background-color: darkgrey;
+}
+
+.articles .col-lg-6 {
+  background-color: lightgrey;
+  border: 1px solid black;
+  height: 700px;
+  margin-top: 50px;
+}
+/* debug */
+
+.works {
+  /* debug */
+  position: relative;
+  height: 800px;
+  background-color: yellow;
+  background-image: url('img/bg_works.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.works [class*="col-"] {
+  border: 1px solid black;
+  height: 800px;
+}
+
+.articles .col-lg-6 {
+  background-color: lightgrey;
+  border: 1px solid black;
+  height: 700px;
+  margin-top: 50px;
+}
+/* debug */
