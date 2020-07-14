@@ -137,6 +137,7 @@ a {
 }
 /* debug */
 
+/* WORKS sezione */
 
 .works {
   /* debug */
@@ -150,7 +151,7 @@ a {
 }
 
 .works [class*="col-"] {
-  border: 1px solid black;
+  border: 1px solid red;
   height: 700px;
 }
 
@@ -161,3 +162,20 @@ a {
   margin-top: 50px;
 }
 /* debug */
+
+/* FUNCTIONS sezione */
+
+/* debug */
+.infos [class*="col-"] {
+  border: 1px solid red;
+  height: 400px;
+}
+
+/* FOOTER */
+
+/* debug */
+footer [class*="col-"] {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid red;
+}
