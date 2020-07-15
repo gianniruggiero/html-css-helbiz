@@ -5,6 +5,17 @@ h1 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
 /* MIX */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -17,6 +28,10 @@ main {
 
 a {
   text-decoration: none;
+}
+
+.txt-center {
+  text-align: center;
 }
 
 .col_grey_art {
@@ -33,6 +48,10 @@ a {
 
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-150 {
+  margin-top: 150px;
 }
 
 .mb-30 {
@@ -66,6 +85,11 @@ a {
 .mb-80 {
   margin-bottom: 80px;
 }
+
+.pdt-100 {
+  padding-top: 100px;
+}
+
 
 .list-inline {
   list-style: none;
@@ -203,11 +227,10 @@ a {
   /* debug */
   position: relative;
   height: 700px;
-  background-color: yellow;
   background-image: url('../img/bg_works.jpg');
-  background-position: top;
+  background-position: top left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1700px;
 }
 
 .works [class*="col-"] {
@@ -216,6 +239,29 @@ a {
 }
 
 /* debug */
+
+.works h3 {
+  position: relative;
+  top: 76%;
+}
+
+.works h4 {
+  position: relative;
+  top: 76%;
+}
+
+.works p {
+  position: relative;
+  top: 76%;
+  margin-top: 16px;
+}
+
+.iphone-ico {
+  height: 500px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
 
 /* FUNCTIONS sezione */
 
@@ -280,6 +326,12 @@ footer [class*="col-"] {
 
   .img-art {
     width: 400px;
+  }
+
+
+  .works [class*="col-"] {
+    border: 1px solid red;
+    height: 100%;
   }
 
 
