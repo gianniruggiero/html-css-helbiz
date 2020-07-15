@@ -170,7 +170,8 @@ a {
   text-align: center;
   display: inline-block;
   position: absolute;
-  top: 50%;
+  /* calc per compensare i 70px fixed dell'header top */
+  top: calc(50% - 35px);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -328,7 +329,12 @@ footer [class*="col-"] {
     width: 400px;
   }
 
+  /* Hero */
+  .hero {
+    height: 500px;
+  }
 
+  /* debug */
   .works [class*="col-"] {
     border: 1px solid red;
     height: 100%;
